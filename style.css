@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#buttonContainer {
+    margin-top: 20px;
+}
+
+button {
+    font-size: larger;
+    height: 70px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+.Light {
+    background-color:antiquewhite;
+    color: black;
+}
+
+.Light button {
+    background-color:orangered;
+    color: white;
+    border: 2px solid black;
+}
+
+.Dark {
+    background-color: black;
+    color: white;
+}
+
+.Dark button {
+    background-color:teal;
+    color: green;
+    border: 2px solid white;
+}
